@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(./assets/img/img\ de\ fundo.jpg);
+  background-position: top center;
+  background-size: cover;
+ background-repeat: no-repeat;
+}
+ body *{
+  font-family: 'inter',sans-serif;
+  color: black
+ }
+#container{
+  height: 712px;
+  width: 360px;
+  margin: 56px auto 0px auto;
+  padding-top: 40px;
+}
+
+/* profile */
+
+#profile{
+ padding: 24px;
+text-align: center;
+}
+
+
+#profile img{ 
+ width: 125px;
+ display: block;
+ margin: auto;
+ border: 6px solid blanchedalmond;
+ border-radius: 50%;
+ 
+}
+ #profile p{
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+ }
