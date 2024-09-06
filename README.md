@@ -10,6 +10,6 @@ Este é um projeto de uma página de contatos, desenvolvido em HTML e CSS. A pá
  
 -## Funcionalidades
 
-- Links para meus perfis no Instagram, Facebook e portfólio pessoal.
+- Links para meus perfis no Instagram, pinterest e github.
 - Efeitos visuais ao passar o mouse sobre os links.
 - Design responsivo, adaptando-se a diferentes tamanhos de tela. 
