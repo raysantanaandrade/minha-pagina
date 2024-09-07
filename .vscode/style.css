@@ -34,7 +34,7 @@ text-align: center;
  display: block;
  margin: auto;
  border: 6px solid blanchedalmond;
- border-radius: 50%;
+ border-radius: 25%;
  
 }
  #profile p{
@@ -42,3 +42,31 @@ text-align: center;
   line-height: 24px;
   margin-top: 8px;
  }
+
+
+ /* links  */
+  
+ ul{
+  list-style: none;  
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+ }
+  
+ ul li  a {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  padding: 16px 26px; 
+  background: rgba(red, green, blue, alpha);
+  border: 1px solid black;
+  border-radius: 8%;
+
+
+  backdrop-filter: blur(4px);
+  font-weight: 500;
+ }
+
