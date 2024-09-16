@@ -18,7 +18,7 @@ body{
   height: 712px;
   width: 360px;
   margin: 56px auto 0px auto;
-  padding-top: 40px;
+  padding: 0 24px;
 }
 
 /* profile */
@@ -68,5 +68,13 @@ text-align: center;
 
   backdrop-filter: blur(4px);
   font-weight: 500;
+  transition: background 0.5s;
  }
 
+/* pseudo-selector */
+
+ul li a:hover {
+
+  background: rgba(255,255,255,0.05);
+  border: 1.5px solid white;
+}
