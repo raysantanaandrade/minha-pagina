@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url(./assets/img/img\ de\ fundo.jpg);
+  background-image:url("assets/img/img de fundo 3.jpg" );
   background-position: top center;
   background-size: cover;
  background-repeat: no-repeat;
@@ -89,7 +89,26 @@ ul li a:hover {
   padding: 24px 0;
   font-size: 24px;
 
- 
+}
+#social-links a {
+ display: flex;
+ justify-content: center;
+ gap: 16px;
+
+ padding: 24px 0;
+
+
+ font-size: 24px;
+ transition: background 0.2s;
+ border-radius: 50px;
+
+
+
+}
+#social-links a:hover{
+background: rgba(255, 255, 255, 0.2);
+padding: 16px;
+
 
 
 }
