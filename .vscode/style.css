@@ -7,12 +7,16 @@
   --text-color:black;
   --bg-url:url("assets/img/img de fundo 3.jpg" );
   --stroke-color:rgba(0,0,0,0.5);
+  --surface-color:rgba(255,255,255,0.2);
+  --switch-bg-url:url(assets/img/moon-stars.svg) ;
 }
 
 .light{
 --text-color:white;
 --bg-url:url("assets/img/img de fundo 2.jpg");
 --stroke-color:rgba(255,255,255,0.5);
+--surface-color:rgba(255,255.255.0.2);
+--switch-bg-url: url(assets/img/sun.svg);
 
 }
 body{
@@ -53,6 +57,42 @@ text-align: center;
   line-height: 24px;
   margin-top: 8px;
  }
+  /* switch */
+ #switch button{
+  width: 32px;
+  height: 32px;
+  background: white; 
+  border: 0;
+  border-radius: 50%;
+  background-image: var(--switch-bg-url);
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  right: 0;
+  transform: translateY(-50%);
+
+ }
+#switch {
+  position: relative;
+  width: 64px;
+}
+ #switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color) ;
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
+   
+
+ }
+
 
 
  /* links  */
